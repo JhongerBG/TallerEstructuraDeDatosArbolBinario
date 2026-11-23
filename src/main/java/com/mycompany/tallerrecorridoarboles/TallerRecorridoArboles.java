@@ -39,7 +39,7 @@ public class TallerRecorridoArboles {
             System.out.println("Mostrar Arbol - 13");
             System.out.println("Mostrar Arbol - 14");
             System.out.println("Mostrar Arbol - 15");
-            System.out.println("Salir - 11");
+            System.out.println("Salir - 16");
             opcion = sc.nextInt();
 
             switch (opcion) 
