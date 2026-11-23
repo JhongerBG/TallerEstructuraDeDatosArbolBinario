@@ -324,4 +324,169 @@ public class Arboles {
         rc.BFSRecursivo(raiz);
         System.out.println("BFS");
     }
+    
+    //Arbol11
+    public void arbol11() {
+        Nodo raiz = new Nodo(104);
+
+        // Rama izquierda
+        raiz.izq = new Nodo(105);
+
+        raiz.izq.izq = new Nodo(107);
+        raiz.izq.izq.der = new Nodo(110);
+
+        // Rama derecha
+        raiz.der = new Nodo(106);
+
+        raiz.der.izq = new Nodo(108);
+        raiz.der.der = new Nodo(109);
+
+        raiz.der.izq.izq = new Nodo(111);
+        raiz.der.izq.izq.der = new Nodo(113);
+
+        raiz.der.der.der = new Nodo(112);
+
+        //RECORRIDOS
+        rc.preordenRecursivo(raiz);
+        System.out.println("Preorden");
+        rc.inordenRecursivo(raiz);
+        System.out.println("Inorden");
+        rc.postordenRecursivo(raiz);
+        System.out.println("Postorden");
+        rc.BFSRecursivo(raiz);
+        System.out.println("BFS");
+    }
+    //Arbol12
+    public void arbol12() {
+        Nodo raiz = new Nodo(114);
+
+        // Rama izquierda
+        raiz.izq = new Nodo(115);
+
+        raiz.izq.izq = new Nodo(117);
+        raiz.izq.der = new Nodo(118);
+
+        raiz.izq.izq.izq = new Nodo(120);
+        raiz.izq.der.der = new Nodo(121);
+        raiz.izq.der.der.der = new Nodo(123);
+
+        // Rama derecha
+        raiz.der = new Nodo(116);
+
+        raiz.der.der = new Nodo(119);
+        raiz.der.der.izq = new Nodo(122);
+
+        //RECORRIDOS
+        rc.preordenRecursivo(raiz);
+        System.out.println("Preorden");
+        rc.inordenRecursivo(raiz);
+        System.out.println("Inorden");
+        rc.postordenRecursivo(raiz);
+        System.out.println("Postorden");
+        rc.BFSRecursivo(raiz);
+        System.out.println("BFS");
+    }
+
+    //Arbol13
+    public void arbol13() {
+        Nodo raiz = new Nodo(124);
+
+        // Rama izquierda
+        raiz.izq = new Nodo(125);
+
+        raiz.izq.izq = new Nodo(127);
+        raiz.izq.izq.der = new Nodo(130);
+
+        // Rama derecha
+        raiz.der = new Nodo(126);
+
+        raiz.der.izq = new Nodo(128);
+        raiz.der.der = new Nodo(129);
+
+        raiz.der.izq.izq = new Nodo(131);
+        raiz.der.izq.izq.izq = new Nodo(133);
+
+        raiz.der.der.der = new Nodo(132);
+        raiz.der.der.der.izq = new Nodo(134);
+
+        //RECORRIDOS
+        rc.preordenRecursivo(raiz);
+        System.out.println("Preorden");
+        rc.inordenRecursivo(raiz);
+        System.out.println("Inorden");
+        rc.postordenRecursivo(raiz);
+        System.out.println("Postorden");
+        rc.BFSRecursivo(raiz);
+        System.out.println("BFS");
+    }
+
+    //Arbol14
+    public void arbol14() {
+        Nodo raiz = new Nodo(135);
+
+        // Rama izquierda
+        raiz.izq = new Nodo(136);
+
+        raiz.izq.izq = new Nodo(138);
+        raiz.izq.der = new Nodo(139);
+
+        raiz.izq.izq.izq = new Nodo(141);
+        raiz.izq.der.der = new Nodo(142);
+        raiz.izq.der.der.der = new Nodo(144);
+
+        // Rama derecha
+        raiz.der = new Nodo(137);
+
+        raiz.der.izq = new Nodo(140);
+        raiz.der.izq.der = new Nodo(143);
+        raiz.der.izq.der.izq = new Nodo(145);
+
+        //RECORRIDOS
+        rc.preordenRecursivo(raiz);
+        System.out.println("Preorden");
+        rc.inordenRecursivo(raiz);
+        System.out.println("Inorden");
+        rc.postordenRecursivo(raiz);
+        System.out.println("Postorden");
+        rc.BFSRecursivo(raiz);
+        System.out.println("BFS");
+    }
+
+    //Arbol15
+    public void arbol15() {
+        Nodo raiz = new Nodo(146);
+
+        // Rama izquierda
+        raiz.izq = new Nodo(147);
+
+        raiz.izq.izq = new Nodo(149);
+        raiz.izq.der = new Nodo(150);
+
+        raiz.izq.izq.izq = new Nodo(153);
+        raiz.izq.der.der = new Nodo(154);
+
+        raiz.izq.izq.izq.der = new Nodo(157);
+
+        // Rama derecha
+        raiz.der = new Nodo(148);
+
+        raiz.der.izq = new Nodo(151);
+        raiz.der.der = new Nodo(152);
+
+        raiz.der.izq.izq = new Nodo(155);
+        raiz.der.izq.izq.izq = new Nodo(158);
+        raiz.der.izq.izq.der = new Nodo(159);
+
+        raiz.der.der.der = new Nodo(156);
+
+        //RECORRIDOS
+        rc.preordenRecursivo(raiz);
+        System.out.println("Preorden");
+        rc.inordenRecursivo(raiz);
+        System.out.println("Inorden");
+        rc.postordenRecursivo(raiz);
+        System.out.println("Postorden");
+        rc.BFSRecursivo(raiz);
+        System.out.println("BFS");
+    }
 }
