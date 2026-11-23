@@ -34,6 +34,11 @@ public class TallerRecorridoArboles {
             System.out.println("Mostrar Arbol - 8");
             System.out.println("Mostrar Arbol - 9");
             System.out.println("Mostrar Arbol - 10");
+            System.out.println("Mostrar Arbol - 11");
+            System.out.println("Mostrar Arbol - 12");
+            System.out.println("Mostrar Arbol - 13");
+            System.out.println("Mostrar Arbol - 14");
+            System.out.println("Mostrar Arbol - 15");
             System.out.println("Salir - 11");
             opcion = sc.nextInt();
 
@@ -78,12 +83,28 @@ public class TallerRecorridoArboles {
                 case 10:
                     arbol.arbol10();
                     break;
+                    
+                case 11:
+                    arbol.arbol11();
+                    break;
+                case 12:
+                    arbol.arbol12();
+                    break;
+                case 13:
+                    arbol.arbol13();
+                    break;
+                case 14:
+                    arbol.arbol14();
+                    break;
+                case 15:
+                    arbol.arbol15();
+                    break;
 
                 default:
                     System.out.println("Opcion no valida.");
                     break;
             }
-        } while (opcion != 11);
+        } while (opcion != 16);
 
         sc.close();
     }
